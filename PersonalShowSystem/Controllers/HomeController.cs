@@ -49,7 +49,7 @@ namespace PersonalShowSystem.Controllers
         //社会评价
         public ActionResult Evaluation()
         {
-            ViewBag.Message = "社会评价";
+            ViewBag.Message = "社会评价dd";
 
             return View();
         }
