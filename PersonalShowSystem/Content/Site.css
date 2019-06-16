@@ -1,0 +1,738 @@
+﻿body {
+    padding: 0;
+    padding: 0;
+    background: #f7f7f8;
+}
+*{
+    font-family: -apple-system,"Helvetica Neue",Helvetica,Arial,"PingFang SC","Hiragino Sans GB","WenQuanYi Micro Hei","Microsoft Yahei",sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+ .col-md-12 {
+padding:0 !important;
+}
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/* styles for validation helpers */
+.field-validation-error {
+    color: #b94a48;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+input.input-validation-error {
+    border: 1px solid #b94a48;
+}
+
+input[type="checkbox"].input-validation-error {
+    border: 0 none;
+}
+
+.validation-summary-errors {
+    color: #b94a48;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+.clearfix {clear:both;}
+a {
+    text-decoration:none;
+}
+a:hover {
+    text-decoration:none;
+}
+ol, ul {
+    padding:0;
+    margin:0;
+    list-style: none;
+}
+
+body::-webkit-scrollbar-track { -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); background-color: #F5F5F5; }
+body::-webkit-scrollbar { width: 8px; background-color: #F5F5F5; border-radius: 5px; }
+body::-webkit-scrollbar-thumb {background-color: #218eff;border-radius: 10px;background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent);}
+
+/***********************首页 start**********************************/
+.navbar_bg {
+    background-image: url(http://www.1zerp.com/Content/website/newimg/mb.png);
+    background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0; 
+    background-repeat: repeat;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    transition: all 0.5s ease 0s;
+    width: 100%;
+    z-index: -10;
+}
+
+.navbar-inverse {
+    background-color: #00000000;
+    border-color: #00000000;
+}
+.navbar-inverse .navbar-brand {font-size:x-large;color:#ffffff;}
+.navbar-inverse .brand_name:hover{color:#428bca;}
+
+.navbar-inverse .navbar-nav > li > a {color: #ffffff;font-size: medium;}
+.navbar-inverse .navbar-nav > li > a:hover{color:#428bca;}
+
+
+.slidecontent {
+    max-width: 100%;
+    margin: 0px auto;
+    height: 100%;
+}
+.slidecontent .con {
+    position: relative;
+    width: 90%;
+    margin-left: 5%;
+    height: 100%;
+    z-index: 9999;
+}
+.index1_l, .index2_l, .index3_l {
+    position: absolute;
+    left: 0px;
+    top: 32%;
+    color: #fff;
+    text-align: left;
+}
+.index1_l .l1, .index2_l .l1, .index3_l .l1 {
+    font-size: 45px;
+    letter-spacing: 3px;
+}
+.anim .fil {
+    opacity: 1;
+    -webkit-animation: fadeInLeft 0.8s both;
+    animation: fadeInLeft 0.8s both;
+}
+.index1_l .l2, .index2_l .l2, .index3_l .l2 {
+    margin-top: 30px;
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+.slidecontent .btn {
+    display: inline-block;
+    vertical-align: middle;
+    width: 200px;
+    line-height: 45px;
+    background: #2dbe60;
+    border-radius: 2px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+}
+.slidecontent .mt70 {
+    margin-top: 70px;
+}
+
+.index1_r,.index2_r,.index3_r {
+    position: absolute;
+    right: 0px;
+    top: 15%;
+    width: 38%;
+}
+.index1_r img, .index2_r img, .index3_r img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    z-index: 9999;
+    color: #fff;
+}
+/***********************首页 end**********************************/
+
+/***********************工作经历 start**********************************/
+
+.ex_row_1 img {
+    max-width: 100%;
+    width: 100%;
+}
+.ex_row_1 .con_c {
+    position: absolute;
+    top: 0;
+    padding-top:17%;
+    background-color: rgba(58, 56, 56, 0.43);
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    text-indent: 20px;
+}
+.ex_row_1 .con_c .t1 {
+    font-size: 42px;
+    letter-spacing: 10px;
+}
+.ex_row_1 .con_c .t2 {
+    margin-top: 40px;
+    font-size: 25px;
+    letter-spacing: 6px;
+}
+.ex_row_1 .con_c .t3 {
+    margin-top: 10px;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+.ex_row_1 .con_c p {
+    text-align: center;
+    margin-top: 50px;
+}
+.ex_row_1 .sybtn {
+    border-radius: 2px;
+    background-color: #2dbe60;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 16px;
+    height: 45px;
+    line-height: 45px;
+    margin: 0px 10px;
+    padding: 0px 20px;
+    outline: medium none;
+    text-align: center;
+    text-indent: 0px;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+}
+
+.content-title {
+    padding-top: 45px;
+    text-align: center;
+}
+.content-title div {
+    color: #383838;
+    font-size: 35px;
+    margin-bottom: 13px;
+}
+.content-title span {
+    color: #888;
+    font-size: 22px;
+}
+.content-text {
+    margin: 60px auto 0;
+}
+
+.ex_row_2,.ex_row_4,.ex_row_6{
+    background-color: #ffffff;
+}
+.ex_row_3,.ex_row_5,.ex_row_7{
+    background-color: #f8f8f8;
+}
+/***********************工作经历 end**********************************/
+
+
+/***********************教育经历 start**********************************/
+.education .ed_row_1 img {
+    width:100%;
+}
+.education .con_c {
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+}
+.education .con_left {
+    position: absolute;
+    left: 100px;
+    margin-top: 50px;
+    color: #fff;
+    text-align: left;
+}
+.education .con_right {
+    position: absolute;
+    right: 10px;
+    margin-top: 0px;
+    width: 35%;
+}
+.education .con_right img {
+    width: 100%;
+    height: 100%;
+}
+.education .con_left .t1 {
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+.education .con_left .t2 {
+    margin-top: 30px;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+.education .con_left .t3 {
+    margin-top: 30px;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+.education .con_left .sybtn{
+    display: inline-block;
+    vertical-align: middle;
+    width: 240px;
+    height: 60px;
+    line-height: 60px;
+    background: #2dbe60;
+    border-radius: 2px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    margin-top: 70px;
+}
+.ed_row_2,.ed_row_4,.ed_row_6{
+    background-color: #ffffff;
+}
+.ed_row_3,.ed_row_5,.ed_row_7{
+    background-color: #1f2124;
+}
+
+/***********************教育经历 end**********************************/
+
+
+
+/***********************个人生活 start**********************************/
+#media {
+    height: 100%;
+    width: 100%;margin-bottom: -75px;/*用于隐藏下方的播放按钮按钮*/}
+/***********************个人生活 end**********************************/
+
+
+/***********************个人博客 start**********************************/
+.wordpress {
+    
+}
+.blog_bg {
+    height: 285px;
+    background: url(../Images/blog_bg_1.jpg) no-repeat center top;
+}
+.header {
+    padding: 100px 0 30px;
+}
+.header-top .fl {
+    float:left;
+}
+.header-top .fl img {
+    display: block;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.header-top .right {
+    position: absolute;
+    left: 165px;
+}
+.header-top .right .name {
+    font-size: 24px;
+    color: #fff;
+    font-weight: bold;
+    line-height: 1;
+    margin: 0 0 20px;
+    overflow: hidden;
+    display: block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.header-top .right .number-list {
+    margin-left: -35px;
+}
+.header-top .right .number-list li {
+    float: left;
+    width: 116px;
+    text-align: center;
+    border-left: 1px solid #e0e0e0;
+}
+.header-top .right .number-list span, .header-top .right .number-list a {
+    display: block;
+    font-size: 20px;
+    color: #fff;
+    line-height: 1;
+}
+.header-top .right .number-list p {
+    color: #fff;
+    line-height: 1;
+    margin-top: 8px;
+    font-size: 12px;
+    opacity: .5;
+    filter: opacity(50);
+}
+.header-top .right-msg {
+    position: absolute;
+    right: 100px;
+}
+.wordpress .page .row .item {
+    padding: 20px 20px 20px 10px;
+    border-bottom: 1px solid #eee;
+    font-size: 12px;
+    position: relative;
+    overflow: hidden;
+}
+.header-top .right-msg a {
+    display: inline-block;
+    width: 78px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+.header-bottom {
+    margin-top: 10px;
+}
+.header-bottom .left-list {
+    float: left;
+    margin-left: 130px;
+}
+.header-bottom .left-list li {
+    float: left;
+    line-height: 34px;
+    font-size: 12px;
+    color: #fff;
+    margin-right: 26px;
+}
+.header-bottom .right-list {
+    float: right;
+    margin-right: 100px;
+}
+.header-bottom .right-list p {
+    float: left;
+    color: #fff;
+    line-height: 33px;
+}
+.header-bottom .right-list p {
+    float: left;
+    color: #fff;
+    line-height: 33px;
+}
+.header-bottom .right-list a.bds_sqq {
+    background-position: left -82px;
+    width: 35px;
+    height: 35px;
+}
+.header-bottom .right-list a {
+    float: left;
+    margin-left: 8px;
+    background-image: url(../Images/share_tools.png);
+    background-repeat: no-repeat;
+    padding-left: 0;
+    margin: 0;
+    margin-left: 10px;
+}
+.header-bottom .right-list a.bds_tsina {
+    background-position: left bottom;
+    width: 33px;
+    height: 33px;
+}
+.header-bottom .right-list a {
+    float: left;
+    margin-left: 8px;
+    background-image: url(../Images/share_tools.png);
+    background-repeat: no-repeat;
+    padding-left: 0;
+    margin: 0;
+    margin-left: 10px;
+}
+.header-bottom .right-list a.bds_weixin {
+    background-position: left 0;
+    width: 33px;
+    height: 33px;
+}
+
+.header-bottom .right-list a {
+    float: left;
+    margin-left: 8px;
+    background-image: url(../Images/share_tools.png);
+    background-repeat: no-repeat;
+    padding-left: 0;
+    margin: 0;
+    margin-left: 10px;
+}
+
+.wordpress .page .userInfo {
+    line-height: 32px;
+    margin-bottom: 15px;
+}
+
+.userInfo a {
+    color: #333;
+    float: left;
+    margin-right: 10px;
+}
+.userInfo a img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: block;
+    float: left;
+    margin-right: 0px;
+}
+.userInfo .time {
+    color: #999;
+    float: left;
+    margin-left: 10px;
+}
+
+.vip-icon {position: absolute;right: 5px;bottom: 0;display: inline-block;}
+.vip-icon-1 {width: 32px;height: 32px;background: url(../Images/vip.png) no-repeat left 0;right: 8px;bottom: 6px;}
+.vip-icon-2 {width: 22px;height: 22px;background: url(../Images/vip.png) no-repeat left -64px;}
+.vip-icon-3 {width: 20px;height: 20px;background: url(../Images/vip.png) no-repeat left -108px;}
+.vip-icon-4 {width: 18px;height: 18px;background: url(../Images/vip.png) no-repeat left -152px;}
+.vip-icon-5 {position: absolute;left: 20px;bottom: 11px;width: 18px;height: 18px;background: url(../images/vip/vip.png) no-repeat left -152px;}
+.vip-icon-1.on {background: url(../Images/vip.png) no-repeat right 0;}
+.vip-icon-2.on {background: url(../Images/vip.png) no-repeat right -64px;}
+.vip-icon-3.on {background: url(../Images/vip.png) no-repeat right -108px;}
+.vip-icon-4.on {background: url(../Images/vip.png) no-repeat right -152px;}
+.vip-icon-5.on {background: url(../Images/vip.png) no-repeat right -152px;}
+
+.is-vip-bg, .is-vip-bg-2, .is-vip-bg-3, .is-vip-bg-4, .is-vip-bg-5, .is-vip-bg-6, .is-vip-bg-7 {
+    position: relative;
+    height: 100%;
+}
+.page .left_area .item {
+    padding: 10px;
+}
+.page .left_area .item:hover {
+    background: #fff;
+}
+.fl {
+    float: left;
+}
+.page .left_area .item h2 {
+    line-height: 1;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.page .left_area .item h2 a:hover{
+    color:#428bca;
+}
+.page .left_area .item h2 a{
+    color:#333;
+    font-weight:600;
+}
+.page .left_area h2 a span {
+    color: #FFF;
+    background: #F05F0E;
+    border-radius: 2px;
+    padding: 2px;
+    font-weight: normal;
+    margin-left: 5px;
+    font-size: 16px;
+}
+.page .left_area .con {
+    color: #666;
+    height: 48px;
+    line-height: 24px;
+    overflow: hidden;
+    font-size: 14px;
+}
+.page .left_area .intro {
+    overflow: hidden;
+    line-height: 24px;
+    padding-top: 15px;
+}
+.page .left_area .intro>* {
+    float: left;
+}
+.page .left_area .intro .jing {
+    font-size: 12px;
+    padding: 0 8px;
+    line-height: 20px;
+    color: #ee5e0f;
+    background: #fff;
+    border: 1px solid #ee5e0f;
+    border-radius: 2px;
+    margin-right: 16px;
+}
+.page .left_area .intro p {
+    margin-right: 20px;
+}
+.page .left_area button.zan {
+    background: url(../Images/good.png) no-repeat left center;
+    color: #666;
+    padding: 0;
+    padding-left: 25px;
+    padding-top: 6px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    line-height: 30px;
+    border: none;
+}
+
+.page .pagination {
+    width: 100%;
+    margin: 20px auto;
+    text-align: center;
+    font-size: larger;
+    color:#a29c9c;
+}
+.page .pagination a {
+    padding:5px 10px;
+    color:black;    
+}
+.page .pagination a:hover {
+    color:#428bca;    
+}
+.page .pagination a.cur {
+     color:#428bca;    
+}
+
+.page .right_area {
+
+}
+.right_area .advert {
+        background: #f7f7f8 !important;
+}
+.advert img{
+    width:100%;
+    height:100%;
+    margin-bottom: 10px;
+}
+.right_area h3.BoxTil {
+    font-size: 16px;
+    padding-left: 10px;
+    border-left: 3px solid #4285f4;
+    line-height: 1;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+.right_area .Box {
+    margin-bottom: 30px;
+    padding: 10px;
+    border: 1px solid #EEE;
+    background: #FFF;
+}
+.BlogerList li {
+    overflow: hidden;
+    padding: 10px 0;
+    list-style: none;
+    border-top: 1px dotted #EEE;
+    line-height: 48px;
+}
+.followUsers-list li .num-list {
+    float: left;
+    line-height: 48px;
+    color: #333;
+}
+.followUsers-list li.num-one .num-list {
+  font-style: italic;
+  color: #ec5636;
+  font-size: 16px;
+}
+
+.followUsers-list li.num-one .name {
+  color: #ec5636;
+}
+
+.followUsers-list li.num-two .num-list {
+  font-style: italic;
+  color: #ed8d33;
+  font-size: 16px;
+}
+
+.followUsers-list li.num-two .name {
+  color: #ed8d33;
+}
+
+.followUsers-list li.num-three .num-list {
+  font-style: italic;
+  color: #56a9e9;
+  font-size: 16px;
+}
+
+.followUsers-list li.num-three .name {
+  color: #56a9e9;
+}
+
+
+.BlogerList.bd .followUsers-list li .pic {
+     width: 48px;
+    height: 48px;
+    float: left;
+    padding-top: 0px;
+    margin-left: 10px;
+}
+.BlogerList li .pic img {
+    width: 40px;
+    height: 40px;
+    display: block;
+    border-radius: 50%;
+    border:none;
+}
+.followUsers-list li .name {
+    float: left;
+    font-size: 16px;
+    margin-left: 5px;
+    width: 70px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #ec5636;
+}
+.followUsers-list li .followUsers-right {
+    float: right;
+    cursor: pointer;
+}
+.followUsers-list li .number {
+    font-size: 14px;
+    color: #333;
+}
+.followUsers-list li .checkFollow {
+    display: none;
+}
+.checkFollow {
+    font-size: 14px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    cursor: pointer;
+    color: #4285f4;
+    background-image: url(../Images/checkflow.png);
+    padding-left: 14px;
+}
+.articles .list .s1 a, .articles .list .s2 a, .articles .list .s3 a {
+    background-image: url(../Images/dot_blue.png);
+}
+.articles .list .s1 a, .articles .list .s2 a, .articles .list .s3 a {
+    background-image: url(../Images/dot_gray.png);
+}
+.articles .list .seven-list {
+    margin-top:10px;
+}
+.articles .list .seven-list a {
+    display: block;
+    padding-left: 15px;
+    line-height: 16px;
+    margin-bottom: 15px;
+    word-wrap: normal;
+    word-spacing: normal;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    background: url(../Images/dot_gray.png) no-repeat left center;
+}
+
+.followUsers-list li:hover .followUsers-right .number {
+  display: none;
+}
+
+.followUsers-list li:hover .followUsers-right .checkFollow {
+  display: block;
+}
+/***********************个人博客 end**********************************/
+
+/***********************社会评价 start**********************************/
+
+
+/***********************社会评价 end**********************************/
